@@ -1,0 +1,10 @@
+# function에서 gateway 및 기타 리소스에 연결될 설정 추가.
+functions:
+  # lambda function vpc 설정 필요시 사용 정보(RDS 및 각 환경VPC 설정 필요한 경우에만 사용.
+  # vpc 할당시 내부 네트워크 IP 할당 시간 지연이 발생하여 약간의 lambda function load 지연 발생
+  vpc:
+    securityGroupIds:
+      - "sg-xxxxxxxxxxxxxxx"
+    subnetIds:
+      - "subnet-xxxxxxxxxxxxxxx"
+      - "subnet-xxxxxxxxxxxxxxx"

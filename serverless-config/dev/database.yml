@@ -1,0 +1,12 @@
+documentDbPrimary:
+  host: 'main-db-001'
+  port: 27017
+  username: 'test'
+  password: 'test1234'
+  database: 'test'
+documentDbSecondary:
+  host: 'main-db-002'
+  port: 27017
+  username: 'test'
+  password: 'test1234'
+  database: 'test'
