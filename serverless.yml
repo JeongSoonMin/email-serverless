@@ -74,4 +74,4 @@ functions:
     events:
       ## SQS 이벤트 polling
       - sqs:
-          arn: arn:aws:sqs:ap-northeast-2:533267109492:email-send-queue-dev
+          arn: arn:aws:sqs:ap-northeast-2:xxxxxxxx:email-send-queue-dev
